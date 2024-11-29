@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+.contact {
+  padding-top: 25px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: right;
+}
+#conMe {
+  height: 35px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 4px solid wheat;
+  color: red;
+}
+#conMe:hover {
+  background-color: red;
+  color: blanchedalmond;
+  border-color: blue;
+  height: 45px;
+  width: 200px;
+}
+.Image {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  height: 400px;
+}
+#imgs {
+  border-radius: 50%;
+  border: 5px solid wheat;
+}
+#imgs:hover {
+  border-color: red;
+}
+#name {
+  padding-top: 30px;
+  text-align: center;
+  color: red;
+}
+#HeadPro {
+  padding-top: 30px;
+  text-align: center;
+  color: blue;
+}
+.Projects {
+  display: flex;
+  gap: 100px;
+  border: 3px solid orange;
+  padding: 50px;
+  color: blanchedalmond;
+  border-radius: 50px;
+}
+.myskl {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  color: blue;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  font-size: 20px;
+  color: blanchedalmond;
+  border: 3px solid orange;
+  border-radius: 50px;
+}
+.desHead {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  color: blue;
+}
+.des_1 {
+  padding-top: 18px;
+}
+.des_2 {
+  padding-top: 18px;
+}
+.des_3 {
+  padding-top: 18px;
+}
+.mainDivDes {
+  padding: 20px;
+}
